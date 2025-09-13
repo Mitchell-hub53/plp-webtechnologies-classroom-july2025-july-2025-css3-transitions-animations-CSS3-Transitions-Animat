@@ -1,0 +1,18 @@
+.shape {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  margin-top: 15px;
+  transition: background 0.8s ease;
+}
+
+@keyframes slideAcross {
+  from { transform: translateX(0); }
+  to { transform: translateX(200px); }
+}
+
+.run {
+  background: orange;
+  animation: slideAcross 2s alternate;
+}
+
